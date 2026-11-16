@@ -1,3 +1,5 @@
+import SmoothScroll from '@/components/providers/SmoothScroll'
+
 import type { Metadata } from 'next'
 
 import { Inter, Plus_Jakarta_Sans } from 'next/font/google'
@@ -41,7 +43,9 @@ export default function RootLayout({ children }: LayoutProps<'/'>) {
       lang="en"
       className={`${inter.variable} ${jakarta.variable} antialiased`}
     >
-      <body className="text-text-muted font-sans">{children}</body>
+      <body className="text-text-muted font-sans">
+        <SmoothScroll>{children}</SmoothScroll>
+      </body>
     </html>
   )
 }

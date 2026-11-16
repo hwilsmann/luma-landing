@@ -50,12 +50,12 @@ export default function Categories() {
               <li key={category.href}>
                 <Link
                   href={category.href}
-                  className="border-neutral-light flex h-full flex-col items-start justify-between gap-5 rounded-2xl border p-5 lg:gap-7 lg:p-7"
+                  className="border-neutral-light hover:bg-surface group flex h-full flex-col items-start justify-between gap-5 rounded-2xl border p-5 transition-colors duration-350 lg:gap-7 lg:p-7"
                 >
                   <div className="flex flex-col items-start gap-3">
                     <span
                       aria-hidden="true"
-                      className="bg-surface text-primary rounded-md px-2 py-1 text-[12px] leading-[16px] font-semibold tracking-[1.44px]"
+                      className="bg-surface text-primary group-hover:bg-primary rounded-md px-2 py-1 text-[12px] leading-[16px] font-semibold tracking-[1.44px] transition-colors duration-350 group-hover:text-white"
                     >
                       {String(index + 1).padStart(2, '0')}
                     </span>

@@ -4,7 +4,7 @@ import Button from '../ui/Button'
 
 export default function People() {
   return (
-    <section className="bg-background py-12 lg:py-32">
+    <section id="community" className="bg-background py-12 lg:py-32">
       <div className="mx-auto max-w-284 px-5 lg:px-0">
         <div className="grid grid-cols-1 items-center gap-6 lg:grid-cols-[minmax(0,1fr)_535px] lg:gap-16">
           <div className="flex flex-col items-start gap-4 lg:gap-8">

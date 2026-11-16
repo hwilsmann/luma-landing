@@ -6,7 +6,7 @@ const details = ['8 lessons', '2h 40min', 'Intermediate']
 
 export default function FeaturedCourse() {
   return (
-    <section className="bg-primary py-8 text-white lg:py-32">
+    <section id="courses" className="bg-primary py-8 text-white lg:py-32">
       <div className="mx-auto max-w-284 px-4 lg:px-0">
         <div className="grid grid-cols-1 items-center gap-6 lg:grid-cols-[538px_minmax(0,1fr)] lg:gap-16">
           <div className="relative">

@@ -15,9 +15,15 @@ export default function Nav({ items }: NavProps) {
       <ul className="flex flex-wrap gap-6">
         {items.map((item) => (
           <li key={item.href}>
-            <Link href={item.href} className="text-[14px] leading-[24px]">
-              {item.label}
-            </Link>
+            {item.href.startsWith('#') ? (
+              <a href={item.href} className="hover:text-primary">
+                {item.label}
+              </a>
+            ) : (
+              <Link href={item.href} className="hover:text-primary">
+                {item.label}
+              </Link>
+            )}
           </li>
         ))}
       </ul>

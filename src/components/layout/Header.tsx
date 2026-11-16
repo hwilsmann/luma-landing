@@ -8,10 +8,10 @@ import Nav from '../ui/Nav'
 import Button from '../ui/Button'
 
 const nav = [
-  { label: 'Courses', href: '/courses' },
-  { label: 'For Teams', href: '/for-teams' },
-  { label: 'Community', href: '/community' },
-  { label: 'About', href: '/about' },
+  { label: 'Courses', href: '#courses' },
+  { label: 'For Teams', href: '#for-teams' },
+  { label: 'Community', href: '#community' },
+  { label: 'About', href: '#about' },
 ]
 
 export default function Header() {

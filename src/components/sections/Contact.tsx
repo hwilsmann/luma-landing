@@ -1,8 +1,10 @@
 import Image from 'next/image'
 
+import Button from '../ui/Button'
+
 export default function Contact() {
   return (
-    <section className="py-12 lg:py-32">
+    <section id="about" className="py-12 lg:py-32">
       <div className="mx-auto max-w-284 px-5 lg:px-0">
         <div className="grid grid-cols-1 items-center gap-6 lg:grid-cols-[minmax(0,1fr)_540px] lg:gap-16">
           <div className="flex flex-col gap-4 lg:gap-8">
@@ -36,7 +38,7 @@ export default function Contact() {
                   </span>
 
                   <a
-                    className="text-primary text-[12px] lg:text-[14px]"
+                    className="text-primary text-[12px] hover:underline lg:text-[14px]"
                     href="mailto:contact@luma.com"
                   >
                     contact@luma.com
@@ -91,7 +93,7 @@ export default function Contact() {
                 type="text"
                 autoComplete="name"
                 required
-                className="border-neutral-light bg-background h-10 rounded-lg border px-4 py-2 text-[12px] leading-[20px] lg:h-[48px] lg:py-3 lg:text-[14px] lg:leading-[24px]"
+                className="border-neutral-light bg-background focus:border-primary h-10 rounded-lg border px-4 py-2 text-[12px] leading-[20px] transition-colors duration-350 focus-visible:outline-none lg:h-[48px] lg:py-3 lg:text-[14px] lg:leading-[24px]"
                 placeholder="Your name"
               />
             </div>
@@ -110,7 +112,7 @@ export default function Contact() {
                 type="email"
                 autoComplete="email"
                 required
-                className="border-neutral-light bg-background h-10 rounded-lg border px-4 py-2 text-[12px] leading-[20px] lg:h-[48px] lg:py-3 lg:text-[14px] lg:leading-[24px]"
+                className="border-neutral-light bg-background focus:border-primary h-10 rounded-lg border px-4 py-2 text-[12px] leading-[20px] transition-colors duration-350 focus-visible:outline-none lg:h-[48px] lg:py-3 lg:text-[14px] lg:leading-[24px]"
                 placeholder="youremail@example.com"
               />
             </div>
@@ -127,17 +129,14 @@ export default function Contact() {
                 id="message"
                 name="message"
                 required
-                className="border-neutral-light bg-background h-[90px] resize-none rounded-lg border px-4 py-3 text-[12px] leading-[20px] lg:h-[120px] lg:text-[14px] lg:leading-[24px]"
+                className="border-neutral-light bg-background focus:border-primary h-[90px] resize-none rounded-lg border px-4 py-3 text-[12px] leading-[20px] transition-colors duration-350 focus-visible:outline-none lg:h-[120px] lg:text-[14px] lg:leading-[24px]"
                 placeholder="Tell us how we can help..."
               />
             </div>
 
-            <button
-              type="submit"
-              className="bg-primary inline-flex w-full items-center justify-center gap-1 rounded-lg px-6 py-3 text-[12px] leading-[24px] font-bold text-white lg:text-[14px]"
-            >
+            <Button type="submit" variant="primary">
               Send message
-            </button>
+            </Button>
           </form>
         </div>
       </div>

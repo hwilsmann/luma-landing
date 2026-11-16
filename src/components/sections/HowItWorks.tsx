@@ -23,7 +23,7 @@ const steps = [
 
 export default function HowItWorks() {
   return (
-    <section className="bg-background py-16 lg:py-32">
+    <section id="for-teams" className="bg-background py-16 lg:py-32">
       <div className="mx-auto max-w-284 px-5 lg:px-0">
         <div className="flex flex-col gap-8 lg:gap-32">
           <div className="flex flex-col items-center gap-4 lg:gap-8">
