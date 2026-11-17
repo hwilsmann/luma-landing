@@ -70,6 +70,7 @@ export default function Footer() {
                       <Link
                         href={link.href}
                         className="text-[12px] leading-[20px] hover:underline lg:text-[14px] lg:leading-[24px]"
+                        prefetch={false}
                       >
                         {link.label}
                       </Link>
