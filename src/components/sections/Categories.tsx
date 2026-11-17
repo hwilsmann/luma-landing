@@ -51,6 +51,7 @@ export default function Categories() {
                 <Link
                   href={category.href}
                   className="border-neutral-light hover:bg-surface group flex h-full flex-col items-start justify-between gap-5 rounded-2xl border p-5 transition-colors duration-350 lg:gap-7 lg:p-7"
+                  prefetch={false}
                 >
                   <div className="flex flex-col items-start gap-3">
                     <span
