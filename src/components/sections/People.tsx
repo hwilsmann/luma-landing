@@ -8,15 +8,15 @@ export default function People() {
       <div className="mx-auto max-w-284 px-5 lg:px-0">
         <div className="grid grid-cols-1 items-center gap-6 lg:grid-cols-[minmax(0,1fr)_535px] lg:gap-16">
           <div className="flex flex-col items-start gap-4 lg:gap-8">
-            <span className="text-primary text-[12px] leading-[16px] font-semibold tracking-[1.44px] uppercase">
+            <span className="text-primary text-[12px] leading-4 font-semibold tracking-[1.44px] uppercase">
               The people
             </span>
 
-            <h2 className="text-text-primary font-jakarta text-[20px] leading-[24px] font-extrabold tracking-[-0.5px] lg:text-[48px] lg:leading-[56px] lg:tracking-[-1.2px]">
+            <h2 className="text-text-primary font-jakarta text-[20px] leading-6 font-extrabold tracking-[-0.5px] lg:text-[48px] lg:leading-14 lg:tracking-[-1.2px]">
               Meet international students & teachers
             </h2>
 
-            <p className="text-[12px] leading-[18px] lg:text-[18px] lg:leading-[28px]">
+            <p className="text-[12px] leading-4.5 lg:text-[18px] lg:leading-7">
               Practical courses taught by people who do the work every day.
               Learn design, technology, business and more — one focused lesson
               at a time.

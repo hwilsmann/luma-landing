@@ -8,15 +8,15 @@ export default function Contact() {
       <div className="mx-auto max-w-284 px-5 lg:px-0">
         <div className="grid grid-cols-1 items-center gap-6 lg:grid-cols-[minmax(0,1fr)_540px] lg:gap-16">
           <div className="flex flex-col gap-4 lg:gap-8">
-            <span className="text-primary text-[12px] leading-[16px] font-semibold tracking-[1.44px] uppercase">
+            <span className="text-primary text-[12px] leading-4 font-semibold tracking-[1.44px] uppercase">
               Contact
             </span>
 
-            <h2 className="text-text-primary font-jakarta text-[20px] leading-[24px] font-extrabold tracking-[-0.5px] lg:text-[48px] lg:leading-[56px] lg:tracking-[-1.2px]">
+            <h2 className="text-text-primary font-jakarta text-[20px] leading-6 font-extrabold tracking-[-0.5px] lg:text-[48px] lg:leading-14 lg:tracking-[-1.2px]">
               Get in touch
             </h2>
 
-            <p className="text-[12px] leading-[18px] lg:text-[18px] lg:leading-[28px]">
+            <p className="text-[12px] leading-4.5 lg:text-[18px] lg:leading-7">
               Have a question? We’re here to help. Whether you’re looking for
               the right course, learning with your team or interested in
               teaching with Luma, we’d love to hear from you.
@@ -70,11 +70,11 @@ export default function Contact() {
 
           <form className="border-neutral-light flex flex-col gap-5 rounded-2xl border p-5 shadow-[0px_12px_32px_0px_#171B2C0A] lg:gap-7 lg:p-7">
             <div className="flex flex-col gap-1">
-              <h3 className="text-text-primary font-jakarta text-[16px] leading-[24px] font-bold lg:text-[20px] lg:leading-[32px]">
+              <h3 className="text-text-primary font-jakarta text-[16px] leading-6 font-bold lg:text-[20px] lg:leading-8">
                 Contact us
               </h3>
 
-              <p className="text-[12px] leading-[18px] lg:text-[14px] lg:leading-[24px]">
+              <p className="text-[12px] leading-4.5 lg:text-[14px] lg:leading-6">
                 Fill out the fields and we will get in touch.
               </p>
             </div>
@@ -82,7 +82,7 @@ export default function Contact() {
             <div className="flex flex-col gap-1">
               <label
                 htmlFor="name"
-                className="text-text-primary text-[12px] leading-[20px] font-bold lg:text-[14px] lg:leading-[24px]"
+                className="text-text-primary text-[12px] leading-5 font-bold lg:text-[14px] lg:leading-6"
               >
                 Full name
               </label>
@@ -93,7 +93,7 @@ export default function Contact() {
                 type="text"
                 autoComplete="name"
                 required
-                className="border-neutral-light bg-background focus:border-primary h-10 rounded-lg border px-4 py-2 text-[12px] leading-[20px] transition-colors duration-350 focus-visible:outline-none lg:h-[48px] lg:py-3 lg:text-[14px] lg:leading-[24px]"
+                className="border-neutral-light bg-background focus:border-primary h-10 rounded-lg border px-4 py-2 text-[12px] leading-5 transition-colors duration-350 focus-visible:outline-none lg:h-12 lg:py-3 lg:text-[14px] lg:leading-6"
                 placeholder="Your name"
               />
             </div>
@@ -101,7 +101,7 @@ export default function Contact() {
             <div className="flex flex-col gap-1">
               <label
                 htmlFor="email"
-                className="text-text-primary text-[12px] leading-[20px] font-bold lg:text-[14px] lg:leading-[24px]"
+                className="text-text-primary text-[12px] leading-5 font-bold lg:text-[14px] lg:leading-6"
               >
                 Email
               </label>
@@ -112,7 +112,7 @@ export default function Contact() {
                 type="email"
                 autoComplete="email"
                 required
-                className="border-neutral-light bg-background focus:border-primary h-10 rounded-lg border px-4 py-2 text-[12px] leading-[20px] transition-colors duration-350 focus-visible:outline-none lg:h-[48px] lg:py-3 lg:text-[14px] lg:leading-[24px]"
+                className="border-neutral-light bg-background focus:border-primary h-10 rounded-lg border px-4 py-2 text-[12px] leading-5 transition-colors duration-350 focus-visible:outline-none lg:h-12 lg:py-3 lg:text-[14px] lg:leading-6"
                 placeholder="youremail@example.com"
               />
             </div>
@@ -120,7 +120,7 @@ export default function Contact() {
             <div className="flex flex-col gap-1">
               <label
                 htmlFor="message"
-                className="text-text-primary text-[12px] leading-[20px] font-bold lg:text-[14px] lg:leading-[24px]"
+                className="text-text-primary text-[12px] leading-5 font-bold lg:text-[14px] lg:leading-6"
               >
                 Your question
               </label>
@@ -129,7 +129,7 @@ export default function Contact() {
                 id="message"
                 name="message"
                 required
-                className="border-neutral-light bg-background focus:border-primary h-[90px] resize-none rounded-lg border px-4 py-3 text-[12px] leading-[20px] transition-colors duration-350 focus-visible:outline-none lg:h-[120px] lg:text-[14px] lg:leading-[24px]"
+                className="border-neutral-light bg-background focus:border-primary h-22.5 resize-none rounded-lg border px-4 py-3 text-[12px] leading-5 transition-colors duration-350 focus-visible:outline-none lg:h-30 lg:text-[14px] lg:leading-6"
                 placeholder="Tell us how we can help..."
               />
             </div>

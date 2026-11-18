@@ -47,7 +47,7 @@ export default function Footer() {
                 />
               </Link>
 
-              <p className="text-[12px] leading-[20px] lg:text-[14px] lg:leading-[24px]">
+              <p className="text-[12px] leading-5 lg:text-[14px] lg:leading-6">
                 Practical learning for curious
                 <br />
                 people.
@@ -60,7 +60,7 @@ export default function Footer() {
                 aria-label={list.title}
                 className="flex flex-col gap-3"
               >
-                <h2 className="text-text-white-secondary text-[11px] leading-[16px] font-semibold tracking-[1.44px] uppercase lg:text-[12px]">
+                <h2 className="text-text-white-secondary text-[11px] leading-4 font-semibold tracking-[1.44px] uppercase lg:text-[12px]">
                   {list.title}
                 </h2>
 
@@ -69,7 +69,7 @@ export default function Footer() {
                     <li key={link.href}>
                       <Link
                         href={link.href}
-                        className="text-[12px] leading-[20px] hover:underline lg:text-[14px] lg:leading-[24px]"
+                        className="text-[12px] leading-5 hover:underline lg:text-[14px] lg:leading-6"
                         prefetch={false}
                       >
                         {link.label}

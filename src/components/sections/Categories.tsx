@@ -31,15 +31,15 @@ export default function Categories() {
       <div className="mx-auto max-w-284 px-5 lg:px-0">
         <div className="flex flex-col gap-8 lg:gap-16">
           <div className="flex max-w-140 flex-col gap-4 lg:gap-8">
-            <span className="text-primary text-[12px] leading-[16px] font-semibold tracking-[1.44px] uppercase">
+            <span className="text-primary text-[12px] leading-4 font-semibold tracking-[1.44px] uppercase">
               Find your next skill
             </span>
 
-            <h2 className="text-text-primary font-jakarta text-[28px] leading-[32px] font-extrabold tracking-[-0.7px] lg:text-[48px] lg:leading-[56px] lg:tracking-[-1.2px]">
+            <h2 className="text-text-primary font-jakarta text-[28px] leading-8 font-extrabold tracking-[-0.7px] lg:text-[48px] lg:leading-14 lg:tracking-[-1.2px]">
               Learn something worth knowing.
             </h2>
 
-            <p className="text-[14px] leading-[20px] lg:text-[18px] lg:leading-[28px]">
+            <p className="text-[14px] leading-5 lg:text-[18px] lg:leading-7">
               Short, practical courses designed around skills you can put to
               work immediately.
             </p>
@@ -56,21 +56,21 @@ export default function Categories() {
                   <div className="flex flex-col items-start gap-3">
                     <span
                       aria-hidden="true"
-                      className="bg-surface text-primary group-hover:bg-primary rounded-md px-2 py-1 text-[12px] leading-[16px] font-semibold tracking-[1.44px] transition-colors duration-350 group-hover:text-white"
+                      className="bg-surface text-primary group-hover:bg-primary rounded-md px-2 py-1 text-[12px] leading-4 font-semibold tracking-[1.44px] transition-colors duration-350 group-hover:text-white"
                     >
                       {String(index + 1).padStart(2, '0')}
                     </span>
 
-                    <h3 className="text-text-primary font-jakarta text-[16px] leading-[24px] font-bold lg:text-[20px] lg:leading-[32px]">
+                    <h3 className="text-text-primary font-jakarta text-[16px] leading-6 font-bold lg:text-[20px] lg:leading-8">
                       {category.title}
                     </h3>
 
-                    <p className="text-[12px] leading-[18px] lg:text-[14px] lg:leading-[24px]">
+                    <p className="text-[12px] leading-4.5 lg:text-[14px] lg:leading-6">
                       {category.description}
                     </p>
                   </div>
 
-                  <span className="text-text-primary flex items-center gap-1 text-[12px] leading-[20px] font-bold lg:text-[14px] lg:leading-[24px]">
+                  <span className="text-text-primary flex items-center gap-1 text-[12px] leading-5 font-bold lg:text-[14px] lg:leading-6">
                     Explore <span aria-hidden="true">→</span>
                   </span>
                 </Link>

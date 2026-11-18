@@ -24,7 +24,7 @@ export default function Testimonial() {
             <div className="flex flex-col gap-3">
               <Image src="/images/symbol.svg" alt="" width={24} height={22} />
 
-              <h2 className="text-text-primary font-jakarta text-[16px] leading-[24px] font-semibold tracking-[-0.3px] lg:text-[30px] lg:leading-[44px] lg:tracking-[-0.75px]">
+              <h2 className="text-text-primary font-jakarta text-[16px] leading-6 font-semibold tracking-[-0.3px] lg:text-[30px] lg:leading-11 lg:tracking-[-0.75px]">
                 The lessons are short enough to fit into my week, but detailed
                 enough that I actually leave with something I can use.
               </h2>
@@ -57,11 +57,11 @@ export default function Testimonial() {
                   key={stat.description}
                   className="flex min-w-0 flex-col gap-1"
                 >
-                  <strong className="font-jakarta text-primary text-[28px] leading-[34px] font-extrabold tracking-[-0.8px] lg:text-[64px] lg:leading-[70px] lg:tracking-[-1.6px]">
+                  <strong className="font-jakarta text-primary text-[28px] leading-8.5 font-extrabold tracking-[-0.8px] lg:text-[64px] lg:leading-17.5 lg:tracking-[-1.6px]">
                     {stat.title}
                   </strong>
 
-                  <span className="text-[9px] leading-[13px] lg:text-[14px] lg:leading-[24px]">
+                  <span className="text-[9px] leading-3.25 lg:text-[14px] lg:leading-6">
                     {stat.description}
                   </span>
                 </li>

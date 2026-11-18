@@ -33,11 +33,11 @@ export default function FinalCTA() {
           </div>
 
           <div className="flex flex-col items-center gap-2 text-center lg:gap-3">
-            <h2 className="text-text-primary font-jakarta text-[20px] leading-[24px] font-extrabold tracking-[-0.5px] lg:text-[56px] lg:leading-[64px] lg:tracking-[-1.4px]">
+            <h2 className="text-text-primary font-jakarta text-[20px] leading-6 font-extrabold tracking-[-0.5px] lg:text-[56px] lg:leading-16 lg:tracking-[-1.4px]">
               What will you learn next?
             </h2>
 
-            <p className="text-[12px] leading-[18px] lg:text-[18px] lg:leading-[28px]">
+            <p className="text-[12px] leading-4.5 lg:text-[18px] lg:leading-7">
               Start with one course. Build from there.
             </p>
           </div>
