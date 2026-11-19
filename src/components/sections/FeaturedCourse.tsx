@@ -15,11 +15,10 @@ export default function FeaturedCourse() {
             </div>
 
             <Image
-              src="/images/featured-course.jpg"
+              src="/images/featured-course.webp"
               alt="Product design course — student working on interface designs"
               width={538}
               height={408}
-              priority
               className="h-auto w-full rounded-2xl object-cover lg:h-102 lg:w-134.5"
             />
           </div>

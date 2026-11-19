@@ -22,7 +22,12 @@ export default function Testimonial() {
         <div className="grid grid-cols-1 items-center gap-8 lg:grid-cols-[minmax(0,1fr)_401px] lg:gap-16">
           <blockquote className="flex flex-col gap-6 lg:gap-8">
             <div className="flex flex-col gap-3">
-              <Image src="/images/symbol.svg" alt="" width={24} height={22} />
+              <Image
+                src="/images/symbol.svg"
+                alt="Symbol"
+                width={24}
+                height={22}
+              />
 
               <h2 className="text-text-primary font-jakarta text-[16px] leading-6 font-semibold tracking-[-0.3px] lg:text-[30px] lg:leading-11 lg:tracking-[-0.75px]">
                 The lessons are short enough to fit into my week, but detailed
@@ -32,11 +37,10 @@ export default function Testimonial() {
 
             <div className="flex items-center gap-3">
               <Image
-                src="/images/p1.jpg"
-                alt=""
+                src="/images/p1.webp"
+                alt="Person 1"
                 width={48}
                 height={48}
-                priority
                 className="h-8 w-8 rounded-full object-cover lg:h-12 lg:w-12"
               />
 

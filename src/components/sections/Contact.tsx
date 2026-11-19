@@ -26,7 +26,7 @@ export default function Contact() {
               <div className="bg-background flex items-center gap-3 rounded-xl p-4 lg:p-7">
                 <Image
                   src="/images/email.svg"
-                  alt=""
+                  alt="Email"
                   width={40}
                   height={40}
                   className="h-10 w-10 object-cover"
@@ -49,7 +49,7 @@ export default function Contact() {
               <div className="bg-background flex items-center gap-3 rounded-xl p-4 lg:p-7">
                 <Image
                   src="/images/time.svg"
-                  alt=""
+                  alt="Time"
                   width={40}
                   height={40}
                   className="h-10 w-10 object-cover"

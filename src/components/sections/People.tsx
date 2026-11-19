@@ -28,11 +28,10 @@ export default function People() {
           </div>
 
           <Image
-            src="/images/people.png"
+            src="/images/people.webp"
             alt="International students and teachers"
             width={535}
             height={530}
-            priority
             className="h-auto w-full object-cover lg:h-132.5 lg:w-133.75"
           />
         </div>

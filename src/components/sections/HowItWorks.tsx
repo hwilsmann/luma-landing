@@ -44,7 +44,7 @@ export default function HowItWorks() {
               >
                 <Image
                   src={step.image}
-                  alt=""
+                  alt={step.title}
                   width={56}
                   height={56}
                   className="relative z-1"

@@ -3,15 +3,15 @@ import Image from 'next/image'
 import Button from '../ui/Button'
 
 const avatars = [
-  '/images/a1.jpg',
-  '/images/a2.jpg',
-  '/images/a3.jpg',
-  '/images/a1.jpg',
+  '/images/a1.webp',
+  '/images/a2.webp',
+  '/images/a3.webp',
+  '/images/a1.webp',
 ]
 
 export default function FinalCTA() {
   return (
-    <section className="bg-[#FFF1C2] bg-[url('/images/final-cta-bg.png')] bg-cover bg-center bg-no-repeat py-10 lg:py-32">
+    <section className="bg-[#FFF1C2] bg-[url('/images/final-cta-bg.webp')] bg-cover bg-center bg-no-repeat py-10 lg:py-32">
       <div className="mx-auto max-w-284 px-5 lg:px-0">
         <div className="flex flex-col items-center gap-8 lg:gap-16">
           <div className="flex flex-col items-center gap-3">
@@ -21,10 +21,9 @@ export default function FinalCTA() {
                   <Image
                     key={`${src}-${index}`}
                     src={src}
-                    alt=""
+                    alt="Avatar"
                     width={40}
                     height={40}
-                    priority
                     className="border-accent h-8 w-8 rounded-full border-2 object-cover lg:h-10 lg:w-10"
                   />
                 ))}

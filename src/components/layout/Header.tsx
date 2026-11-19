@@ -36,13 +36,7 @@ export default function Header() {
       <div className="mx-auto max-w-284 px-4 lg:px-0">
         <div className="flex items-center justify-between gap-6">
           <Link href="/" aria-label="Luma - Home">
-            <Image
-              src="/images/logo.svg"
-              alt="Luma"
-              width={54}
-              height={17}
-              priority
-            />
+            <Image src="/images/logo.svg" alt="Luma" width={54} height={17} />
           </Link>
 
           <div className="hidden lg:block">
@@ -75,7 +69,7 @@ export default function Header() {
             ) : (
               <Image
                 src="/images/hamburguer.svg"
-                alt=""
+                alt="Hamburguer"
                 width={20}
                 height={12}
               />

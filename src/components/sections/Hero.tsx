@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 import Button from '../ui/Button'
 
-const avatars = ['/images/a1.jpg', '/images/a2.jpg', '/images/a3.jpg']
+const avatars = ['/images/a1.webp', '/images/a2.webp', '/images/a3.webp']
 
 export default function Hero() {
   return (
@@ -40,7 +40,7 @@ export default function Hero() {
                   <Image
                     key={src}
                     src={src}
-                    alt=""
+                    alt="Avatar"
                     width={32}
                     height={32}
                     className="border-background h-8 w-8 rounded-full border-2 object-cover"
@@ -71,7 +71,7 @@ export default function Hero() {
                   <Image
                     key={index}
                     src="/images/star.svg"
-                    alt=""
+                    alt="Star"
                     width={10}
                     height={10}
                     className="h-[9.63px] w-2.5"
@@ -93,11 +93,10 @@ export default function Hero() {
             />
 
             <Image
-              src="/images/hero.jpg"
+              src="/images/hero.webp"
               alt="Person focused on learning at their laptop"
               width={500}
               height={520}
-              preload
               className="relative z-10 mx-auto h-95 w-86.5 max-w-full rounded-2xl object-cover lg:mx-0 lg:h-130 lg:w-125"
             />
           </div>
